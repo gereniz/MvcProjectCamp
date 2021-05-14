@@ -1,0 +1,2 @@
+C:\Users\ASUS\Documents\MvcProjectCamp\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\MvcProjectCamp\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
