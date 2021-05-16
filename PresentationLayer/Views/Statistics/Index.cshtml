@@ -1,0 +1,43 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    <br />
+    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Toplam Kategori Sayısı</h5>
+            <p class="card-text">@ViewBag.categoryCount</p>
+        </div>
+    </div>
+    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Başlık Tablosunda "Yazılım" Kategorisine Ait Başlık Sayısı</h5>
+            <p class="card-text">@ViewBag.softwareCount</p>
+        </div>
+    </div>
+    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Yazar Adında 'a' Harfi Geçen Yazar Sayısı</h5>
+            <p class="card-text">@ViewBag.aContainsNameCount</p>
+        </div>
+    </div>
+    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">En Fazla Başlığa Sahip Kategori Adı</h5>
+            <p class="card-text">@ViewBag.maxHeadingCategoryName</p>
+        </div>
+    </div>
+    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Kategori Tablosunda Durumu True Olan Kategoriler ile False Olan Kategoriler Arasındaki Sayısal Fark</h5>
+            <p class="card-text">@ViewBag.statusResult</p>
+        </div>
+    </div>
+
+
+</div>

@@ -61,6 +61,16 @@
     <Compile Include="Concrete\DomainContext.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
+    <Compile Include="EntityFramework\EFAboutDal.cs" />
+    <Compile Include="EntityFramework\EFCategoryDal.cs" />
+    <Compile Include="EntityFramework\EFContactDal.cs" />
+    <Compile Include="EntityFramework\EFContentDal.cs" />
+    <Compile Include="EntityFramework\EFHeadingDal.cs" />
+    <Compile Include="EntityFramework\EFWriterDal.cs" />
+    <Compile Include="Migrations\202105151117253_Initial.cs" />
+    <Compile Include="Migrations\202105151117253_Initial.designer.cs">
+      <DependentUpon>202105151117253_Initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,6 +84,12 @@
       <Name>EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202105151117253_Initial.resx">
+      <DependentUpon>202105151117253_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
