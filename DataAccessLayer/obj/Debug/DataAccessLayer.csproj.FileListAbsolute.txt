@@ -45,3 +45,4 @@ C:\Users\ASUS\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\ASUS\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\ASUS\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Initial.resources
 C:\Users\ASUS\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\ASUS\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources

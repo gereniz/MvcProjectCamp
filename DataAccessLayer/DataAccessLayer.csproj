@@ -57,7 +57,7 @@
     <Compile Include="Abstract\IContentDal.cs" />
     <Compile Include="Abstract\IHeadingDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
-    <Compile Include="Abstract\IWriteDal.cs" />
+    <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concrete\DomainContext.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
@@ -70,6 +70,10 @@
     <Compile Include="Migrations\202105151117253_Initial.cs" />
     <Compile Include="Migrations\202105151117253_Initial.designer.cs">
       <DependentUpon>202105151117253_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105161244510_mig_writer_edit.cs" />
+    <Compile Include="Migrations\202105161244510_mig_writer_edit.designer.cs">
+      <DependentUpon>202105161244510_mig_writer_edit.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +91,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202105151117253_Initial.resx">
       <DependentUpon>202105151117253_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105161244510_mig_writer_edit.resx">
+      <DependentUpon>202105161244510_mig_writer_edit.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

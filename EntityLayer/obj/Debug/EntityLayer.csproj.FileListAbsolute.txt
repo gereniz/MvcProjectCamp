@@ -10,3 +10,15 @@ C:\Users\ASUS\Documents\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.Sql
 C:\Users\ASUS\Documents\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\Users\ASUS\Documents\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.dll
 C:\Users\ASUS\Documents\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\ASUS\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.pdb

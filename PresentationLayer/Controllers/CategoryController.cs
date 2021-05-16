@@ -45,9 +45,9 @@ namespace MvcProjeCamp.Controllers
                 return RedirectToAction("GetCategoryList");
             }
             else{
-                foreach (var item in results.Errors)
+                foreach (var result in results.Errors)
                 {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    ModelState.AddModelError(result.PropertyName, result.ErrorMessage);
                 }
             }
             return View();
